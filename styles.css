@@ -1,0 +1,135 @@
+/* font-family: 'Caesar Dressing', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Petit Formal Script', cursive;
+font-family: 'Roboto', sans-serif; */
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* seccion header */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 200px;
+}
+
+.logolinks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 36px;
+}
+
+.links a,
+.text2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links a {
+    text-decoration: none;
+ }
+
+.presentation {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 60px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text2 {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px 24px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.placeholder {
+    height: 250px;
+    width: 1200px;
+    background-color: gray;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* seccion information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px;
+}
+
+.titleinfo {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-bottom: 42px;
+}
+
+.containerinfo {
+    display: flex;
+    gap: 25px;
+
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+ .subtext {
+    width: 150px;
+    text-align: center;
+    color: grey;
+ }
+
