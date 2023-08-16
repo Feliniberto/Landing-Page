@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    
 }
 
 .logo {
@@ -58,6 +59,7 @@ body {
     display: flex;
     gap: 32px;
     margin-bottom: 60px;
+    justify-content: space-between;
 }
 
 .title {
@@ -89,8 +91,8 @@ button {
 
 .placeholder {
     height: 250px;
-    width: 1200px;
-    background-color: gray;
+    width: 900px;
+    background-color: slategrey;
     color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -104,6 +106,7 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 36px;
+    margin-bottom: 50px;
 }
 
 .titleinfo {
@@ -132,4 +135,81 @@ button {
     text-align: center;
     color: grey;
  }
+
+ /* seccion quotes */
+ 
+ .quotes {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .quotetext {
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+ }
+
+ .italicquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+ }
+
+ .signquote {
+    font-size: 22px;
+    font-weight: bold;
+    align-self: flex-end;
+ }
+
+ /* seccion inivitation */
+
+ .invitation {
+    padding: 86px 110px;
+    display: flex;
+    align-items: center;
+ }
+
+ .card {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 120px;
+ }
+
+ .cardtext1 {
+    font-size: 24px;
+    font-weight: bold;
+
+ }
+
+ .cardtext2 {
+    font-size: 18px;
+ }
+
+ .invitation .card button {
+    border: 3px solid white;
+    
+}
+
+/* seccion footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #F9FAF8;
+    padding: 40px;
+    
+}
+
 
